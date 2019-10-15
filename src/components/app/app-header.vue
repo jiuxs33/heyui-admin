@@ -88,7 +88,6 @@
 
 <template>
   <div class="app-header">
-    <div style="width:50px;float:left;"><Button :icon="siderCollapsed ? 'icon-align-right':'icon-align-left'" size="l" noBorder class="font20" @click="siderCollapsed=!siderCollapsed"></Button></div>
     <div class="float-right app-header-info">
       <AutoComplete :showDropdownWhenNoResult="false" v-model="searchText" config="globalSearch" placeholder="全局搜索.."></AutoComplete>
       <div class="app-header-icon-item" v-tooltip content="系统布局配置" theme="white" @click="showSettingModal">

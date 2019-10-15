@@ -32,7 +32,7 @@
 </style>
 <template>
   <div class="app-home-vue frame-page">
-    <Row :space="30">
+    <Row :space="10">
       <Cell :xs='24' :sm='24' :md='24' :lg='16' :xl='16'>
         <div class="h-panel">
           <div class="relative">
