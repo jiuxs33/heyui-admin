@@ -1,16 +1,16 @@
 <style lang='less'>
 .app-home-vue {
   .home-part-body {
-    height: 350px;
+    height: 300px;
     .echarts-vue {
-      height: 350px;
+      height: 300px;
     }
   }
 
   .home-part-body2 {
-    height: 420px;
+    height: 400px;
     .echarts-vue {
-      height: 420px;
+      height: 400px;
     }
   }
 
